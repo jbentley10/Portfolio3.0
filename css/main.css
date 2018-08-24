@@ -7610,9 +7610,14 @@ body #explore .box-navigation .row .portfolio-item:after {
     margin: 10px
 }
 
-body #about .box-navigation .row .portfolio-item.--staff-corner:after,
-body #explore .box-navigation .row .portfolio-item.--staff-corner:after {
-    background-image: url(../images/explore/staff-corner/staff-tasks.png)
+body #about .box-navigation .row .portfolio-item.--tripwire-optimization:after,
+body #explore .box-navigation .row .portfolio-item.--tripwire-optimization:after {
+    background-image: url(../images/explore/tripwire/landing-page-redesign--v4.png)
+}
+
+body #about .box-navigation .row .portfolio-item.--tripwire-webpages:after,
+body #explore .box-navigation .row .portfolio-item.--tripwire-webpages:after {
+    background-image: url(../images/explore/tripwire/homepage.png)
 }
 
 body #about .box-navigation .row .portfolio-item.--staff-corner:after,

@@ -11,7 +11,15 @@ $(document).ready(function() {
        page.stop();
     });
 
-    if (className.indexOf("staff-corner") >= 0) {
+    if (className.indexOf("tripwire-webpages") >= 0) {
+        $('html, body').animate({ scrollTop: $('.tripwire-webpages-title').offset().top }, 2000, function() {
+          page.off("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove");
+        });
+    } else if (className.indexOf("tripwire-optimization") >= 0) {
+      $('html, body').animate({ scrollTop: $('.tripwire-optimization-title').offset().top }, 2000, function() {
+        page.off("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove");
+      });
+    } else if (className.indexOf("staff-corner") >= 0) {
       $('html, body').animate({ scrollTop: $('.staff-corner-title').offset().top }, 2000, function() {
         page.off("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove");
       });
