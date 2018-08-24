@@ -7615,6 +7615,11 @@ body #explore .box-navigation .row .portfolio-item.--staff-corner:after {
     background-image: url(../images/explore/staff-corner/staff-tasks.png)
 }
 
+body #about .box-navigation .row .portfolio-item.--staff-corner:after,
+body #explore .box-navigation .row .portfolio-item.--staff-corner:after {
+    background-image: url(../images/explore/staff-corner/staff-tasks.png)
+}
+
 body #about .box-navigation .row .portfolio-item.--next:after,
 body #explore .box-navigation .row .portfolio-item.--next:after {
     background-image: url(../images/explore/next/1.png)
