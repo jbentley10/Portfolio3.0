@@ -477,12 +477,6 @@ $(document).ready(function() {
 
         break;
 
-      case 'card-image grooves-grinds':
-        /*jshint multistr: true */
-        $(this).replaceWith("<img src='../images/explore/grooves-grinds/grooves-grinds-full.png'>");
-
-        break;
-
       case 'card-image the-spot':
         /*jshint multistr: true */
         $(this).replaceWith("<img src='../images/explore/the-spot/the-spot-gif.gif'>");
