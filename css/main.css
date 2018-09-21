@@ -7610,6 +7610,11 @@ body #explore .box-navigation .row .portfolio-item:after {
     margin: 10px
 }
 
+body #about .box-navigation .row .portfolio-item.--pueblo-unido-webpages:after,
+body #explore .box-navigation .row .portfolio-item.--pueblo-unido-webpages:after {
+    background-image: url(../images/explore/pueblo-unido/homepage.png)
+}
+
 body #about .box-navigation .row .portfolio-item.--tripwire-optimization:after,
 body #explore .box-navigation .row .portfolio-item.--tripwire-optimization:after {
     background-image: url(../images/explore/tripwire/landing-page-redesign--v4.png)
