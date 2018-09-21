@@ -7965,6 +7965,10 @@ body #footer .small-icons i.fa.fa-linkedin:hover {
     cursor: pointer
 }
 
+body #explore .explore-expanded .card a.in-paragraph-link {
+  margin: 0 !important;
+}
+
 @media (max-width:991px) {
     body #footer .small-icons {
         position: absolute
